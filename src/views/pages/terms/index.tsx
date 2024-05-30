@@ -6,10 +6,10 @@ const Terms = () => {
 				<div className='mt-4'>
 					Welcome to our website. If you browse and use this website you are agreeing to comply with
 					and be bound by the following terms and conditions of use, which together with our privacy
-					policy govern prashantvarma.in relationship with you in relation to this website
+					policy govern propmatch.in relationship with you in relation to this website
 				</div>
 				<div className='mt-4'>
-					The term “prashantvarma.in” or “us” or “we” refers to the owner of the website. The term
+					The term “propmatch.in” or “us” or “we” refers to the owner of the website. The term
 					“you” refers to the user or viewer of our website.
 				</div>
 				<div className='text-2xl mt-10'>
@@ -55,7 +55,7 @@ const Terms = () => {
 					</li>
 					<li className="mt-4">
 						You may not create a link to this website from another website or document without
-						prashantvarma.in prior written consent.
+						propmatch.in prior written consent.
 					</li>
 					<li className="mt-4">
 						Your use of this website and any dispute arising out of such use of the website is

@@ -129,37 +129,38 @@ const services = [
 	{
 		image: PORTFOLIO,
 		title: 'Portfolio Management',
-		text: 'VK Realtors Promotes And Sells Real Estate Developments To Potential Buyers Or Investors. We Develop Marketing Strategies, Create Promotional Materials, And Provide Sales Support To Help Clients.',
+		text: 'Propmatch Promotes And Sells Real Estate Developments To Potential Buyers Or Investors. We Develop Marketing Strategies, Create Promotional Materials, And Provide Sales Support To Help Clients.',
 	},
 	{
 		image: INTERIOR,
 		title: 'Interior Consultancy',
-		text: "VK Realtors Gives The Best Interior Consultancy Services By Assessing The Client's Needs, Preferences, And Budget To Create A Functional And Aesthetically Pleasing Environment.",
+		text: "Propmatch Gives The Best Interior Consultancy Services By Assessing The Client's Needs, Preferences, And Budget To Create A Functional And Aesthetically Pleasing Environment.",
 	},
 	{
 		image: INVESTMENT,
 		title: 'Investment Sales',
-		text: 'VK Realtors Helps You In Buying Ans Selling Investment Properties, Commercial Buildings, Apartment Complexes, And Lands. We Help You Making The Correct Decision, Based On Your Choices, To Yield The Maximum returns',
+		text: 'Propmatch Helps You In Buying Ans Selling Investment Properties, Commercial Buildings, Apartment Complexes, And Lands. We Help You Making The Correct Decision, Based On Your Choices, To Yield The Maximum returns',
 	},
 	{
 		image: LEGAL,
 		title: 'Legal Support',
-		text: "VK Realtors Helps It's Customers In Drafting And Reviewing Contracts, Handling Disputes, And Ensuring Compliance With Relevant Laws And Regulations. This Helps You Navigate Legal Complexities.",
+		text: "Propmatch Helps It's Customers In Drafting And Reviewing Contracts, Handling Disputes, And Ensuring Compliance With Relevant Laws And Regulations. This Helps You Navigate Legal Complexities.",
 	},
 ];
 
 const Home = () => {
+
 	return (
 		<div>
 			<section id='hero' className={`h-[93vh] hero-background`}>
 				<div className={`text-[3rem] text-center pt-[20%] font-bold`}>
-					{'{VK Realtors}'} Unveils Exclusive Properties For Every Lifestyle
+					PropMatch Unveils Exclusive Properties For Every Lifestyle
 				</div>
 				<div className='text-md font-semibold text-center pt-[2rem]'>
 					We are not just about properties; we believe in fulfilling your dreams.
 				</div>
 			</section>
-			<section id='property' className='py-[2rem]'>
+			<section id='property' className='py-[4rem]'>
 				<div className='text-center font-semibold text-[2rem] text-blue-900 py-4'>
 					Choose Your Property
 				</div>
@@ -176,7 +177,7 @@ const Home = () => {
 				</div>
 			</section>
 			<section id='service-years'>
-				<div className='service-background py-[3rem] px-4 flex flex-col justify-center items-center'>
+				<div className='service-background mt-[3rem] py-[3rem] px-4 flex flex-col justify-center items-center'>
 					<div className='text-center text-[2.25rem] font-semibold py-4 max-w-[600px]'>
 						Successfully Providing Our Service For 3 Years
 					</div>
@@ -225,7 +226,7 @@ const Home = () => {
 						We Work Pan Bharat
 					</div>
 					<div className='text-center max-w-[600px] '>
-						Looking to buy, sell, or rent property anywhere in India? VK Realtors is your trusted
+						Looking to buy, sell, or rent property anywhere in India? Propmatch is your trusted
 						partner for all residential, commercial, and industrial real estate needs. Whether it's
 						a home, bungalow, building, or land, Contact us today for all your real estate needs
 						across Pan India!

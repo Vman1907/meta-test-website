@@ -4,7 +4,7 @@ import { PHONE } from '../../../assets/images';
 const Footer = () => {
 	return (
 		<footer className=' bg-[#172832] pt-[2rem] text-white'>
-			<div className='flex flex-wrap justify-center items-center md:items-start '>
+			<div className='flex flex-wrap justify-center items-center md:items-start text-center md:text-left'>
 				<div className='w-full md:w-1/3 text-center'>
 					<div className='font-medium text-[2rem]'>Propmatch</div>
 				</div>
@@ -13,7 +13,7 @@ const Footer = () => {
 					<div>Stellar Coaching & Consulting</div>
 					<div>Plot No. 11, Sector 6 Dwarka,</div>
 					<div>Dwarka, New Delhi, Delhi 110075, India</div>
-					<div className='flex flex-row items-center text-[#b5c9dd] bg-blue-800 w-fit py-2 px-4 rounded-full mt-4'>
+					<div className='flex flex-row items-center text-[#b5c9dd] bg-blue-800 w-fit py-2 px-4 rounded-full mt-4 mx-auto md:mx-0'>
 						<img src={PHONE} className='w-[15px] mr-2 mt-[2px]' /> +919654308000
 					</div>
 				</div>
